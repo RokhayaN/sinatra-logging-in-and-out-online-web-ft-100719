@@ -1,4 +1,5 @@
 class Helpers
+<<<<<<< HEAD
   def self.current_user(session)
     User.find(session[:user_id])
   end
@@ -8,3 +9,7 @@ class Helpers
     end 
  end 
 
+=======
+  
+end 
+>>>>>>> ddd608e17cfa49a4203bdcda281b14694fb62936
